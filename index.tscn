@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://demr3w2chxga6"]
+
+[ext_resource type="Script" uid="uid://dd6a8wrsl3itc" path="res://addons/2026_01_18_gdp_nes_controller_udp/script/nes_listen_to_unkown_nes_device_on_android.gd" id="1_356j3"]
+[ext_resource type="Script" uid="uid://dkby8knhuc54e" path="res://addons/2026_01_18_gdp_nes_controller_udp/script/nes_primitive_to_macro_bool.gd" id="2_2gn6w"]
+
+[node name="Index" type="Node" unique_id=442428196]
+script = ExtResource("1_356j3")
+use_debug_print = false
+
+[node name="ListentToUnkownNesDevice" type="Node" parent="." unique_id=378406461]
+script = ExtResource("1_356j3")
+
+[node name="NesPrimitiveToMacroBool" type="Node" parent="." unique_id=64519083]
+script = ExtResource("2_2gn6w")
+to_trigger_on_true = Array[String](["A+"])
+to_trigger_on_false = Array[String](["A-"])
+metadata/_custom_type_script = "uid://dkby8knhuc54e"
