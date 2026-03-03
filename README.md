@@ -1,3 +1,16 @@
+
+```
+
+git clone --recursive https://github.com/HelloGodotPi/HelloInputWorld.git
+cd HelloInputWorld
+git branch student_003
+git checkout student_003
+
+```
+
+-----------
+
+
 # Hello Input World
 
 > Let's learn Godot and playing games with simulated keyboard and Xbox controller.
