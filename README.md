@@ -1,4 +1,14 @@
 
+
+```
+cd ~/storage/music
+git clone --recursive https://github.com/HelloGodotPi/HelloInputWorld.git
+cd HelloInputWorld
+git config --global --add safe.directory .
+
+```
+
+
 ```
 cd ~/storage/music
 git clone --recursive https://github.com/HelloGodotPi/HelloInputWorld.git
