@@ -4,11 +4,11 @@ cd ~/storage/music
 git clone --recursive https://github.com/HelloGodotPi/HelloInputWorld.git
 cd HelloInputWorld
 git config --global --add safe.directory .
-git config --global user.name "K90 Android Student 007"
+git config --global user.name "K90 Android Student 008"
 git config --global user.email "hellogodotpi@gmail.com"
-git branch student_007
-git checkout student_007
-git push --set-upstream origin student_007
+git branch student_008
+git checkout student_008
+git push --set-upstream origin student_008
 
 
 ```
